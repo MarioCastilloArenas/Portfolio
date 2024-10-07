@@ -21,3 +21,31 @@
   border-top: solid 0.5px #bbbb;
   /* Elimina el borde */
 }
+
+/* Modo claro (por defecto) */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    background-color: transparent;
+  }
+}
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  
+  body {
+    background-color: #1e1e1e;
+  }
+
+  .card {
+    background-color: #1e1e1e;
+  }
+
+  h1{
+    color: white;
+  }
+
+}

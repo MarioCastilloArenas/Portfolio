@@ -34,6 +34,16 @@
     border: 2px solid #bbbbbb;
 }
 
+@media (prefers-color-scheme: dark) {
+  
+  
+  
+    p{
+      color: white;
+    }
+  
+  }
+
 @-webkit-keyframes scroll{
     0%{
         transform: translateX(0);
