@@ -30,7 +30,7 @@ export const proyects: Proyect[] = [
     { 
         foto: 'assets/imgs/header.png',
         name: "Portfolio",
-        description: "Portolfio Web Realizado en Angular dondem me  conocerás un poco mejor",
-        github:"https://github.com/Exzanime/Tratium.git"
+        description: "Portolfio Web Realizado en Angular donde me conocerás un poco mejor",
+        github:"https://github.com/MarioCastilloArenas/Portfolio.git"
     },
 ]
