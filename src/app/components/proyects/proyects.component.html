@@ -1,0 +1,7 @@
+  <div class="card mb-3 mx-auto no-border-card" style="margin-top: 20px; max-width: 940px;">
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center mx-2">
+      @for (proyect of proyects; track $index) { <!-- Por cada producto un div -->
+      <div app-proyecto [proyect]="proyect" class="col" ></div>
+      }
+    </div>
+  </div>

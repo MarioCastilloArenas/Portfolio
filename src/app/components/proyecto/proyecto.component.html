@@ -1,0 +1,22 @@
+<!-- <div class="card">
+  <img [src]="proyect.foto" class="card-img-top" alt="..." >
+  <div class="card-body" style="border-top: solid 0.5px #bbbb;">
+    <h5 class="card-title">{{proyect.name}}</h5>
+    <p class="card-text">{{proyect.description}}</p>
+      <a class="btn btn-primary" (click)="confirmProyoyectGithub()">Ver Proyecto</a>
+  </div>
+</div>
+ -->
+
+ <article class="card shadow">
+  <div class="card-img">
+    <img [src]="proyect.foto" class="card-img-top" alt="{{proyect.name}}">
+  </div>
+  <div class="project-info">
+    <div class="flex">
+      <div class="project-title">{{proyect.name}}</div>
+      <span class="tag" (click)="confirmProyectGithub()">Github</span>
+    </div>
+    <span class="lighter">{{proyect.description}}</span>
+  </div>
+</article>
