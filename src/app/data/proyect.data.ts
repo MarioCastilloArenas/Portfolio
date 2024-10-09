@@ -17,7 +17,7 @@ export const proyects: Proyect[] = [
     { 
         foto: 'assets/imgs/Cart.png',
         name: "Factura",
-        description: "Pequeña web con catalágo de teclados mencánicos y factura total de la compra",
+        description: "Pequeña web con catalágo de teclados mecánicos y factura total de la compra",
         github:"https://github.com/MarioCastilloArenas/ProyectCart.git"
 
     },
