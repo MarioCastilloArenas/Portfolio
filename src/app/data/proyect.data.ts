@@ -11,7 +11,7 @@ export const proyects: Proyect[] = [
         foto: 'assets/imgs/crud.jpg',
         name: "CRUD",
         description: "Aplicación CRUD de usuarios desarrollada con Angular y Spring Boot para la gestión de los mismos",
-        github:""
+        github:"https://github.com/MarioCastilloArenas/CRUD-Users.git"
 
     },
     { 
