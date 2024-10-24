@@ -3,4 +3,5 @@ export class Proyect {
     name: string = "";
     description: string = "";
     github: string ="";
+    icon: string = ""
 }

@@ -15,7 +15,9 @@
   <div class="project-info">
     <div class="flex">
       <div class="project-title">{{proyect.name}}</div>
-      <span class="tag" (click)="confirmProyectGithub()">Github</span>
+      <span class="tag" (click)="confirmProyectGithub()"> 
+      <img [src]="proyect.icon"  alt="{{proyect.icon}}">
+      </span>
     </div>
     <span class="lighter">{{proyect.description}}</span>
   </div>
